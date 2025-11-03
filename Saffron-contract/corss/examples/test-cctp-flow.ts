@@ -1,9 +1,9 @@
 #!/usr/bin/env ts-node
 
 import { ethers } from 'ethers';
-import { BaseCCTPSender } from '../src/base-sender';
-import { CircleAttestationService } from '../src/circle-attestation';
-import { AptosCCTPReceiver } from '../src/aptos-receiver';
+import { BaseCCTPSender } from '../src/base-sender.js';
+import { CircleAttestationService } from '../src/circle-attestation.js';
+import { AptosCCTPReceiver } from '../src/aptos-receiver.js';
 import * as dotenv from 'dotenv';
 import * as path from 'path';
 
